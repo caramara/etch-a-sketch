@@ -1,0 +1,20 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin: 0;
+    height:100%;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+}
+.box{
+    box-sizing: border-box;
+    border: solid 1px black;
+    flex: 0 0 calc(100%/16);
+    height: calc(100%/16);
+}
